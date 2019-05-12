@@ -1,0 +1,377 @@
+h4 {
+  line-height: -50px;
+}
+
+.background {
+  position: fixed;
+  width: 120%;
+  height:100%;
+  margin-left:-51px;
+  margin-right:0px;
+  margin-top:-8px;
+  z-index:-1;
+}
+
+.whole_page {
+  margin-top:-8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -8px;
+  z-index:1;
+}
+
+#menu {
+  position:fixed;
+  width:100%;
+  height:60px;
+  font-weight: bold;
+  font-size: 20pt;
+  font-family:impact;
+  z-index:10;
+
+
+}
+#bg {
+  position: absolute;
+  width:100%;
+  height:150px;
+  background-image: url("pic/bg2.jpg");
+  margin-top:-50px;
+  z-index:-1;
+  opacity:0;
+}
+.aboutme {
+  width:160px;
+  height:60px;
+  background-image: url("pic/aboutme.png");
+  background-size: 100% 100%;
+  margin-left:6%;
+  margin-top:30px;
+  float:left;
+  z-index:inherit;
+}
+.thestory {
+  width:160px;
+  height:60px;
+  background-image: url("pic/thestory.png");
+  background-size: 100% 100%;
+  margin-left:8%;
+  margin-top:30px;
+  float:left;
+}
+.ourteam {
+  width:160px;
+  height:60px;
+  background-image: url("pic/ourteam.png");
+  background-size: 100% 100%;
+  margin-left:8%;
+  margin-top:30px;
+  float:left;
+}
+.contact {
+  width:160px;
+  height:60px;
+  background-image: url("pic/contact.png");
+  background-size: 100% 100%;
+  margin-left:8%;
+  margin-top:30px;
+  float:left;
+}
+.icon {
+  margin-top:35px;
+  float:left;
+  margin-left:10px;
+}
+.icon span {
+  margin-left:30px;
+}
+.lang {
+  width:160px;
+  height:60px;
+  background-image: url("pic/lang.png");
+  background-size: 100% 100%;
+  margin-top:30px;
+  float:right;
+}
+
+
+.main_title {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:150px;
+  width:100%;
+  height:800px;
+  overflow: hidden;
+  text-align: center;
+}
+.main_title img{
+  margin-top:190px;
+  width:1334px;
+  height:416px;
+}
+#op_black {
+  position: absolute;
+  width:100%;
+  height:950px;
+  margin-top:-200px;
+  background-color:black;
+  z-index:-1;
+  opacity:0.5;
+}
+#stationary {
+  width:100%;
+  margin-left:-80px;
+  margin-top:100px;
+  color:white;
+  font-family:comic sans MS;
+  font-size:50px;
+}
+#movable {
+  width:70%;
+  margin-left:200px;
+  margin-top:100px;
+  color:white;
+  font-family:comic sans MS;
+  font-size:80px;
+  text-align:left;
+}
+
+
+
+
+.blank {
+  height:100px;
+}
+
+.about_me {
+  height:930px;
+
+}
+
+.about_me #about_me_title {
+  width:100%;
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+}
+#about_me_title img{
+  margin-left: auto;
+  margin-right:auto;
+  width:40%;
+  height:40%;
+}
+#my_pic {
+ width:20%;
+}
+#my_pic img{
+  position: absolute;
+  margin-left:-150px;
+  opacity:1;
+  z-index:2;
+}
+#my_pic_bg {
+  position: absolute;
+  background-color: white;
+  width:15%;
+  height:500px;
+  border-radius: 50px;
+  margin-left:150px;
+  margin-top:-80px;
+  opacity:0.5;
+  z-index:1;
+}
+.my_family {
+  width:75%;
+  height:700px;
+  margin-left:380px;
+}
+.about_me_pic {
+  position: absolute;
+  margin-top:0px;
+  width:200px;
+  height:200px;
+}
+.about_me_dec {
+  position: absolute;
+  width:30px;
+  height:250px;
+  margin-left:210px;
+  margin-top:-18px;
+}
+.about_me_word {
+  position: absolute;
+  width:120px;
+  height:200px;
+  margin-left:250px;
+  margin-top:0px;
+
+  color:white;
+  font-family:Comic sans MS;
+  font-size:25pt;
+  line-height: 30px;
+}
+.my_family #me {
+  width:33%;
+  height:200px;
+  margin-top:150px;
+
+}
+.my_family #mom {
+  width:33%;
+  height:200px;
+  margin-top:-360px;
+  margin-left:450px;
+
+}
+.my_family #uncle {
+  width:33%;
+  height:200px;
+  margin-top:110px;
+  margin-left:730px;
+
+}
+.my_family #dad {
+  width:33%;
+  height:200px;
+  margin-top:-40px;
+  margin-left:220px;
+}
+
+
+.the_story {
+  background-color: #6f22d9 ;	
+  background:linear-gradient(45deg, #6f22d9,#1c33e3);
+  height:750px;
+  margin-top:50px;
+  padding-top:100px;
+}
+.the_story #the_story_title {
+  width:100%;
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+}
+#the_story_title img{
+  position:absolute;
+  left:360px;
+  top:1900px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.new {
+  margin-left:auto;
+  margin-right:auto;
+  width:1500px;
+  height:450px;
+  overflow: hidden;
+  text-align: left;
+  border:3px solid white;
+  border-radius:10px;
+}
+#colorfulegg{
+  position: absolute;
+  top:2430px;
+  font-size:100px;
+  z-index:-1 ;
+  color:white;
+}
+.new img { 
+  margin-left:0px;
+  width:7500px;
+  height:450px;
+  
+}
+.new i {
+  position:absolute;
+  color:white;
+  top:2330px;
+  font-size:100px;
+}
+#ar_left {
+  left:60px;
+}
+#ar_right {
+  right:60px;
+}
+#the_story_word {
+  position: absolute;
+  background-color:#152a3c;
+  color:white;
+  width:60%;
+  height:150px;
+  left:320px;
+  margin-top:-30px;
+  font-family:fantasy;
+  font-size:40px;
+  line-height:70px;
+  text-align:center;
+  border-radius:20px;
+  padding-top:20px;
+}
+
+
+.our_team {
+  height:1100px;
+  background:url("pic/bg6.png");
+
+  background-size:100%;
+}
+
+.our_team #our_team_title {
+  height:50px;
+  width:100%;
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+
+}
+#our_team_title img{
+  position:absolute;
+  left:360px;
+  top:2750px;
+}
+.our_team_main {
+  height:1000px;
+  margin-top:-1000px;
+
+}
+.each_mem {
+  float:left;
+  width:30%;
+  height:500px;
+  margin-left:30px;
+
+}
+.mem_pic {
+  height:200px;
+  width:200px;;
+  margin-left: auto;
+  margin-right:auto;
+  background-size:100%;
+  background-repeat: no-repeat;
+  text-align:center;
+}
+.mem_pic img {
+  width:auto;
+  height:100%;
+}
+
+.mem_word {
+  height:100px;
+  width:100%;
+  display:none;
+  font-size:20pt;
+  font-family: Comic sans MS;
+  color:white;
+  text-align:center;
+  background-image: url("pic/bg.png");
+  border-radius: 10px;
+}
+
+#copy {
+  margin-top:20px;
+  text-align: center;
+  font-size:10pt;
+  font-family: monospace;
+  color:white;
+}
